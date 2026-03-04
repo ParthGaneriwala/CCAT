@@ -179,7 +179,7 @@ public class CopilotTakeoffAgent extends XPlaneAgent
             //System.out.println(pathToSoar);
             // PATH TO SOAR FILE IMPORTANT
             //pathToSoar = "C:/Users/ahmii/learning_agent/FIT_AHMIIAS-master/lvca/code/LearningPrototype/src/main/soar/com/soartech/integrated-learning-agent/load.soar";
-            pathToSoar = "C:/Github Projects -Parth/Soar-Agent_Year-3/soar_agent (Year 3)/integrated-learning-agent/load.soar";
+            pathToSoar = "agents/IAS_Agent with Learning Mode and Auth Change Sensor/load.soar";
             SoarCommands.source(sagt.getInterpreter(), pathToSoar);
             System.out.println("There are now " + sagt.getProductions().getProductionCount() + " productions loaded");
 
